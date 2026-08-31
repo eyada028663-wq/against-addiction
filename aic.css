@@ -1,0 +1,187 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #222;
+  background-color: #25c948;
+}
+
+
+
+header {
+  background-color: #4b0082;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+header h1 {
+  font-size: 42px;
+  margin: 0 0 15px;
+}
+
+header p {
+  font-size: 20px;
+  margin: 0;
+}
+
+
+
+nav {
+  background-color: #3bff14;
+  text-align: center;
+  padding: 18px;
+}
+
+nav a {
+  color: rgb(77, 11, 231);
+  text-decoration: none;
+  font-weight: bold;
+  margin: 0 20px;
+}
+
+nav a:hover {
+  color: #ffff00;
+}
+
+
+
+
+main {
+  max-width: 850px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+section {
+  padding: 30px;
+  margin-bottom: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+section h2 {
+  font-size: 28px;
+  margin-top: 0;
+}
+
+
+
+
+.about {
+  background-color: #00bfff;
+  color: white;
+  border: 5px solid #0066ff;
+}
+
+.about h2 {
+  color: white;
+}
+
+
+
+.recovery {
+  background-color: #32cd32;
+  color: #102a10;
+  border: 5px solid #008000;
+}
+
+.recovery h2 {
+  color: #004d00;
+}
+
+.recovery ul {
+  padding-left: 20px;
+}
+
+.recovery li {
+  background-color: #ffff66;
+  margin: 12px 0;
+  padding: 12px;
+  border-radius: 8px;
+}
+
+
+
+
+.support {
+  background-color: #ff8c00;
+  color: white;
+  text-align: center;
+  border: 5px solid #ff4500;
+}
+
+.support h2 {
+  color: white;
+}
+
+
+
+
+button {
+  background-color: #ff1493;
+  color: white;
+
+  border: 3px solid white;
+  border-radius: 30px;
+
+  padding: 14px 30px;
+  margin-top: 10px;
+
+  font-size: 17px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #800080;
+  transform: scale(1.08);
+}
+
+
+
+footer {
+  background-color: #000080;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
+
+@media (max-width: 600px) {
+
+  header h1 {
+    font-size: 30px;
+  }
+
+  header p {
+    font-size: 16px;
+  }
+
+  nav a {
+    display: block;
+    margin: 10px;
+  }
+
+  main {
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  section {
+    padding: 20px;
+  }
+
+}
